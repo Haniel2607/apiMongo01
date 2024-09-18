@@ -17,7 +17,6 @@ app.get('/', (req, res)=>{
     res.json({message: "rodou"})
 })
 
-
 //Create
 app.post("/person", async (req, res) =>{
     const {name, salary, approved} = req.body;
